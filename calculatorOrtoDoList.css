@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    height:500px;
+    width:100%;
+    justify-content:center;
+    align-content:center;
+}
+.toDo{
+    max-width:90%;
+    text-align:center;
+    border:1px solid lightslategray;
+    border-radius:25px;
+    padding:5px;
+}
+.listDiv{
+    max-width:95%;
+}
+#input{
+    border:1px solid lightslategray;
+    border-radius: 25px;
+    outline:none;
+    padding:5px;
+}
+#list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    flex-direction:column;
+    overflow: hidden;
+    list-style-position: inside;
+    max-width:95%;
+}
+.done, .remove, #btn{
+    margin:5px;
+    border-radius: 25px;
+    padding:10px 20px;
+    background:lightslategray;
+    color:#FFF;
+    border:none;
+    cursor: pointer;
+    outline:none;
+}
+.line{
+    text-decoration: line-through;
+}
+.remove{
+    margin-left:20px;
+}
+li{
+}
